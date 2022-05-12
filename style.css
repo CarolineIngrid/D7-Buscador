@@ -1,0 +1,23 @@
+/* ------resete------- */
+:root {
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav img{
+    width: 140px;
+    height: 30px;
+}
+
+.fundo-rosa{
+    background-image: url(imagens/BUSER_GROWTH_VAIDEBUSER_BANNER_MOBILE_11.04.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+}

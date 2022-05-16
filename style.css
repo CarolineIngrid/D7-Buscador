@@ -62,14 +62,19 @@ footer{
     align-items: center;
     justify-content: space-around;
     height: 60px;
+    
 }
 
 .icones{
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     color: black;
+    
 }
 
 .teste{
-        width: 30px;
+        width: 45px;
+        text-align: center;
+        font-size: 12px;
+        
 }

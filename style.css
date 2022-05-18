@@ -38,6 +38,12 @@ nav{
     margin-right: 5%;
 }
 
+.links a{
+    color: #ff0778;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /* ------------ CENTRO ------------- */
 .fundo-rosa{
     display: flex;
@@ -50,12 +56,16 @@ nav{
 }
 
 .fundo-branco{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-self: center;
-    width: 70%;
-    height: 60%;
+    width: 325px;
+    height: 385px;
     background-color: #fff;
     border-radius: 5%;
     margin-top: 5%;
+    color: black;
 }
 
 .fundo-rosa h3{
@@ -79,14 +89,40 @@ nav{
     flex-direction: column;
 }
 
+#saindo{
+    width: 250px;
+    height: 40px;
+    border-radius: 5%;
+    border: 1px solid gray;
+}
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    row-gap: 10px;
+    margin-left: 5%;
+}
 
+.button{
+    width: 300px;
+    height: 40px;
+    background-color: #f11075;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    border-color: #ad1457;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 16px;
+}
 /* ---------- footer ------- */
 footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 60px;
+    margin-top: 3%;
     
 }
 
